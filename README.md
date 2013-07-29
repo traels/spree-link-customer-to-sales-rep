@@ -9,7 +9,7 @@ Installation
 Add spree_link_customer_to_sales_rep to your Gemfile:
 
 ```ruby
-gem 'spree_link_customer_to_sales_rep'
+gem 'spree_link_customer_to_sales_rep', github: 'traels/spree-link-customer-to-sales-rep'
 ```
 
 Bundle your dependencies and run the installation generator:
