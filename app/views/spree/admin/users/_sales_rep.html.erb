@@ -1,0 +1,6 @@
+<% if @user.has_spree_role? :retail %>
+<div data-hook="attachment_default_style" class="field">
+  <%= label_tag 'user[sales_rep_id]', Spree.t(:sales_rep) %>
+  <%= collection_select 'user', 'sales_rep_id', Spree::Role.where(:name=>'sales_rep').first.users, :id, :email, {:selected => @user.sales_rep_id , :include_blank => true}, :class => 'select2 fullwidth' %> 
+</div>
+<% end %>
