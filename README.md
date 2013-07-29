@@ -17,5 +17,6 @@ Bundle your dependencies and run the installation generator:
 ```shell
 bundle
 bundle exec rails g spree_link_customer_to_sales_rep:install
+```
 
 Copyright (c) 2013 Træls, released under the New BSD License
