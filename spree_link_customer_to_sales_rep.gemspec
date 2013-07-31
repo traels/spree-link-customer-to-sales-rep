@@ -7,9 +7,9 @@ Gem::Specification.new do |s|
   s.description = 'Requires: retail and sales_rep roles. Enables linking of users so sales reports can be done per sales rep.'
   s.required_ruby_version = '>= 1.9.3'
 
-  # s.author    = 'You'
-  # s.email     = 'you@example.com'
-  # s.homepage  = 'http://www.spreecommerce.com'
+  s.author    = 'Simon Træls Ravn'
+  s.email     = 'cs2@cs2.dk'
+  s.homepage  = 'http://www.cs2.dk'
 
   #s.files       = `git ls-files`.split("\n")
   #s.test_files  = `git ls-files -- {test,spec,features}/*`.split("\n")
