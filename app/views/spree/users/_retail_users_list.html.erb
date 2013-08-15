@@ -1,0 +1,10 @@
+<% if spree_current_user.has_spree_role?(:sales_rep) %>
+<div class="sales_reps_retail_users">
+  <h3><%= Spree.t('Switch to this user') %></h3>
+  <ul class="retail_user_list">
+  <% spree_current_user.customers.each do |c| %>
+    <li><%= link_to c.email, "/impersonate/user/#{c.id}" %></li>
+  <% end %>
+  </ul>
+</div>
+<% end %>

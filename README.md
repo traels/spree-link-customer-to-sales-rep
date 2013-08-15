@@ -2,6 +2,7 @@ SpreeLinkCustomerToSalesRep
 ===========================
 
 This enables linking of a 'retail' customer to a 'sales_rep' user. Both these types need to be created as user roles in Spree.
+If used together with user_impersonate it will create a list of customers that a salesrep can imporsonate when accessing the my account page.
 
 Installation
 ------------
