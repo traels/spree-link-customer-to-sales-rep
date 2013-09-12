@@ -3,8 +3,8 @@ Spree::Order.class_eval do
 
   alias_method :orig_finalize!,  :finalize! unless method_defined? :orig_finalize!
   def finalize!
-    sales_rep = user.sales_rep unless user.nil? or user.sales_rep.nil?
-    save
+    self.sales_rep = self.user.sales_rep unless self.user.nil? or self.user.sales_rep.nil?
+    self.save
     orig_finalize!
   end
 end
