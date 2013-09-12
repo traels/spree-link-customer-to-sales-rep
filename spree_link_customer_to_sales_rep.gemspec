@@ -2,7 +2,7 @@
 Gem::Specification.new do |s|
   s.platform    = Gem::Platform::RUBY
   s.name        = 'spree_link_customer_to_sales_rep'
-  s.version     = '0.1.1'
+  s.version     = '0.1.2'
   s.summary     = 'Links a retail customer to a sales_rep user'
   s.description = 'Requires: retail and sales_rep roles. Enables linking of users so sales reports can be done per sales rep.'
   s.required_ruby_version = '>= 1.9.3'
