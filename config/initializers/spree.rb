@@ -1,0 +1,1 @@
+Spree::PermittedAttributes.user_attributes << :sales_rep_id
