@@ -9,7 +9,7 @@ group :test do
   gem 'therubyracer', :platforms => :ruby
   gem 'capybara'
   gem 'capybara-screenshot', :require => false
-  gem 'capybara-mechanize'
+#  gem 'capybara-mechanize'
   gem 'rspec-rails'
   gem 'selenium-webdriver'
   gem 'factory_girl_rails', '~> 4.2'
